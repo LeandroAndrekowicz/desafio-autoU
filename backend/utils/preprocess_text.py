@@ -2,9 +2,13 @@ import nltk
 nltk.data.path.append("/opt/render/project/src/.venv/nltk_data")
 
 from nltk.corpus import stopwords
-import string
+import nltk
 
-STOPWORDS = set(stopwords.words("portuguese"))
+try:
+    STOPWORDS = set(stopwords.words("portuguese"))
+except LookupError:
+    nltk.download("stopwords")
+    STOPWORDS = set(stopwords.words("portuguese"))
 
 class PreprocessText:
     @staticmethod
