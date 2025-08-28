@@ -1,3 +1,6 @@
+import nltk
+nltk.data.path.append("/opt/render/project/src/.venv/nltk_data")
+
 from nltk.corpus import stopwords
 import string
 
