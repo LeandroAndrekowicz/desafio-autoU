@@ -1,0 +1,12 @@
+Assunto: Solicitação de informações sobre o projeto X
+
+Corpo:
+Olá Carlinhos,
+
+Precisamos que você nos envie a versão mais recente do relatório do projeto X até sexta-feira, dia 29/08.
+Além disso, poderia confirmar se a equipe terá disponibilidade para a reunião de alinhamento na próxima terça-feira?
+
+Agradeço desde já pela atenção.
+
+Atenciosamente,
+João Silva
