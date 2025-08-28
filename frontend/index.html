@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Email Classifier</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Email Classifier</h1>
+
+    <form id="emailForm">
+      <label for="text">Digite ou cole o conteúdo do email::</label>
+      <textarea id="text" name="text" rows="6" placeholder="Escreva o email aqui..."></textarea>
+
+      <p>OU envie um arquivo (.txt ou .pdf)</p>
+      <input type="file" id="file" name="file" accept=".txt,.pdf">
+
+      <button type="submit">Enviar</button>
+      <p id="loading" class="hidden">Processando...</p>
+    </form>
+
+    <div id="result" class="hidden">
+      <h2>Resultado</h2>
+      <p>
+        <strong>Categoria:</strong> 
+        <span id="categoria"></span>
+      </p>
+      <p>
+        <strong>Resposta processada por:</strong> 
+        <span id="sugerida-por"></span>
+      </p>
+      <p>
+        <strong>Resposta sugerida:</strong>
+      </p>
+      <div id="resposta"></div>
+    </div>
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
