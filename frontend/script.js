@@ -42,7 +42,7 @@ function buildFormData() {
     formData.append("text", text);
   } else {
     alert("Please enter text or upload a file!");
-    document.getElementById("resposta").classList.add("hidden");
+    document.getElementById("resposta")
     return null;
   }
 
